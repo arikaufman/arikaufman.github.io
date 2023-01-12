@@ -23,18 +23,19 @@
   <body>
    
     <!-- header -->
-    <header class="ds-header" id="site-header">
+    <header class="header" id="site-header">
         <div class="container">
-            <div class="ds-header-inner">
+            <div class="header-inner">
               <!-- logo -->
-              <a href="index.html" class="ds-logo">
+              <a href="index.html" class="logo">
                 <span>A</span>Ari Kaufman
               </a>
               <!-- logo -->
               <!-- social -->
-              <ul class="ds-social">
-                <li><a href="https://github.com/arikaufman" target="_blank"><i class="ri-github-fill"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/ari-kaufman/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+              <ul class="navigation">
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#work-section">Projects</a></li>
               </ul>
               <!-- social -->
             </div>
@@ -42,7 +43,7 @@
     </header>
     <!-- header -->
     <!-- banner -->
-    <div class="ds-banner">
+    <div class="banner">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
@@ -52,9 +53,16 @@
           </div>
           <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
             <section>
-                <h1>
-                  Ari Kaufman <br> <br> Software Engineer <br> McGill Eng 23'
-                </h1>
+                <h1>Ari Kaufman </h1>
+                <h2>Software Engineer</h2>
+                <h3>McGill Eng 23'</h3>
+                 <!-- social -->
+                <ul class="social">
+                  <li><a href="https://github.com/arikaufman" target="_blank"><i class="ri-github-fill"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/ari-kaufman/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+                </ul>
+              <!-- social -->
+
             </section>
           </div>
         </div>
@@ -63,17 +71,17 @@
     <!-- banner -->
 
     <!-- about -->
-    <div class="ds-about-section">
+    <div id="about-section" class="about-section">
       <div class="container">
         <section>
-            <h2 class="ds-heading">About Me</h2>
+            <h2  class="heading">About Me</h2>
             <p>Experienced in software engineering with a demonstrated history of working with B2B solutions, 
               along with complicated financial products. Interest in the applications of technology to finance, and health. 
               Large array of technical knowledge due to mechanical engineering background, and software engineering work experience. 
               Achieved best technical solution under the RBC Amplify program, won McGill TechAccel Grant for StudyBuddy, 
               and placed in the top 3 at numerous hackathons.</p>
-            <div class="ds-button-sec text-center">
-                <div id="myImg" class="ds-button">View Resume</div>
+            <div class="button-sec text-center">
+                <div id="myImg" class="button">View Resume</div>
             </div>
             <!-- The Modal -->
             <div id="myModal" class="modal">
@@ -87,54 +95,52 @@
 
     
     <!--  Skills -->
-    <!--
-    <div class="ds-skills-section">
+    <div id="skills-section" class="skills-section">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-             <h2 class="ds-heading">Core Skills</h2>
-             <ul class="ds-skills-list">
-               <li>JavaScript</li>
-               <li>Node.js</li>
-               <li>Express.js</li>
-               <li>MongoDB</li>
-               <li>Vue.js</li>
-               <li>React</li>
-               <li>Sequelize</li>
-               <li>Github</li>
-               <li>HTML</li>
+             <h2 class="heading">Core Skills</h2>
+             <ul class="skills-list">
+               <li>C#</li>
+               <li>Python</li>
+               <li>Sql</li>
+               <li>Matlab</li>
+               <li>Java</li>
+               <li>Go</li>
+               <li>HTML/CSS</li>
              </ul>
           </div>
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <h2 class="ds-heading">Other Skills</h2>
-            <ul class="ds-skills-list">
-              <li>Storyblok</li>
-              <li>PWAs</li>
-              <li>Responsive Web Design</li>
-              <li>React</li>
-              <li>Vuetify</li>
+            <h2 class="heading">Other Skills</h2>
+            <ul class="skills-list">
+              <li>Github</li>
+              <li>AWS</li>
+              <li>DotNetCore</li>
+              <li>Flask</li>
+              <li>Backtrader</li>
+              <li>Heroku</li>
+              <li>PostGreSQL</li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    -->
     <!--  Skills -->
 
    <!--  Work -->
-   <div class="ds-work-section">
+   <div id="work-section" class="work-section">
      <div class="container">
-          <h2 class="ds-heading">Portfolio</h2>
-          <div class="ds-work-list-section">
-            <div class="ds-work-list">
+          <h2 class="heading">Projects</h2>
+          <div class="work-list-section">
+            <div class="work-list">
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
-                          <h3 class="ds-work-tilte">StudyBuddy</h3>
+                          <h3 class="work-tilte">StudyBuddy</h3>
                           <p>We created a web application that solves two problems for students.
                             Primarily, it allows students to stay connected with their friends while studying from home through online schooling, and
                             secondly, provides a tool that will analyze their study habits to improve their productivity. </p>
-                          <a href="https://github.com/arikaufman/StudyBuddyPlannerPublicBackend" class="ds-button">Github Repo</a>
+                          <a href="https://github.com/arikaufman/StudyBuddyPlannerPublicBackend" class="button">Github Repo</a>
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
@@ -142,15 +148,15 @@
                   </div>
               </div>
             </div>
-            <div class="ds-work-list">
+            <div class="work-list">
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
-                          <h3 class="ds-work-tilte">Statistical Arbitrage Model </h3>
+                          <h3 class="work-tilte">Statistical Arbitrage Model </h3>
                           <p>Pairs trading is a strategy for hedging of risk, which involves matching of the short person with the long position in two underlying securities with a high positive correlation. 
                             This offseting of the long and short position is the basis for hedging, and provides profits even with market neutrality. 
                             This project analyzes potentially successful trading pairs by leveraging the python backtrader module. </p>
-                          <a href="https://github.com/arikaufman/algorithmicTrading" class="ds-button">Github Repo</a>
+                          <a href="https://github.com/arikaufman/algorithmicTrading" class="button">Github Repo</a>
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
@@ -158,15 +164,15 @@
                   </div>
               </div>
             </div>
-            <div class="ds-work-list">
+            <div class="work-list">
               <div class="row">
                   <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7">
                       <section>
-                          <h3 class="ds-work-tilte">McHacks Hackathon 2022</h3>
+                          <h3 class="work-tilte">McHacks Hackathon 2022</h3>
                           <p>Conscious Consumer is a Chrome Extension that suggests local and sustainable shopping alternatives to customers. 
                             Built during McHacks9! Overall, we placed 3rd out of 94 teams (342 participants), and 1st in the Ivey School of Business Challenge!
                             The front-end was built with React.js and Bootstrap. The back-end was built with Python, Flask and CockroachDB. </p>
-                          <a href="https://github.com/arikaufman/McHack9-Conscious-Consumer-BackEnd" class="ds-button">Github Repo</a>
+                          <a href="https://github.com/arikaufman/McHack9-Conscious-Consumer-BackEnd" class="button">Github Repo</a>
                       </section>
                   </div>
                   <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
@@ -180,10 +186,10 @@
    <!--  Work -->
 
    <!--  footer -->
-   <footer class="ds-footer text-center">
+   <footer class="footer text-center">
      <div class="container">
         <section>
-          <a href="mailto:akaufman2000@gmail.com" class="ds-button">Contact</a>
+          <a href="mailto:akaufman2000@gmail.com" class="button">Contact</a>
         </section>
      </div>
    </footer>

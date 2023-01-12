@@ -1,16 +1,16 @@
 jQuery(document).ready(function($) {
 
 
-	var mastheadheight = $('.ds-header').outerHeight();
+	var mastheadheight = $('.header').outerHeight();
 	//console.log(mastheadheight);
-	$(".ds-banner,.ds-main-section").css("margin-top" , mastheadheight);
+	$(".banner,.main-section").css("margin-top" , mastheadheight);
 
 	$(window).scroll(function(){
 	    if ($(window).scrollTop() >= 10) {
-	        $('.ds-header').addClass('ds-fixed-header');
+	        $('.header').addClass('fixed-header');
 	    }
 	    else {
-	        $('.ds-header').removeClass('ds-fixed-header');
+	        $('.header').removeClass('fixed-header');
 	    }
 	}).scroll();
 
@@ -30,7 +30,7 @@ img.onclick = function(){
 }
 
 // Get the <span> element that closes the modal
-var div = document.getElementsByClassName("close")[0];
+var div = document.getElementsByClassName("modal")[0];
 
 // When the user clicks on <span> (x), close the modal
 div.onclick = function() {
