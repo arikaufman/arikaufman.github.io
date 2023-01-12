@@ -36,3 +36,5 @@ var div = document.getElementsByClassName("modal")[0];
 div.onclick = function() {
   modal.style.display = "none";
 }
+
+var type
