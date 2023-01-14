@@ -190,7 +190,7 @@ svg,img { max-width: 100%; height: auto; }
 	.banner,.about-section,.skills-section,.experience-section,.work-section,.work-details-section{ padding-left: 10px; padding-right: 10px; }
 	.logo{ font-size: 0; }
 	.banner figure{ padding: 30px 0; }
-	.banner section{ padding-left: 0;padding-right: 0; }
+	.banner section{ padding-top: 0; padding-left: 0;padding-right: 0; }
 	.banner section h1 span{ padding-bottom: 0; }
 	.banner section h1,.work-det-title{ font-size: 30px; line-height: 40px; }
 	.numbervalulist{ margin-top: 20px; }
